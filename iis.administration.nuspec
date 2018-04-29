@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>iis.administration</id>
+    <version>2.2.0</version>
+    <owners>Bryce Walther</owners>
+    <title>IIS.Administration (Install)</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://docs.microsoft.com/en-us/iis-administration/</projectUrl>
+    <licenseUrl>https://github.com/Microsoft/IIS.Administration/blob/dev/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Microsoft/IIS.Administration</projectSourceUrl>
+    <tags>iis.administration iis rest api microsoft</tags>
+    <summary>Microsoft IIS Administration API</summary>
+    <description>The Microsoft IIS Administration API is a REST API that enables consumers to configure and monitor their IIS web servers. With the API installed on an IIS machine, one can configure an IIS instance with any HTTP client including the web management tool at &lt;https://manage.iis.net&gt;.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
